@@ -1,0 +1,10 @@
+rules:
+  - name: General
+    file_regex: .*
+    items:
+      - Did you fill out the description?
+      - Did you assign a primary reviewer?
+  - name: Migrations Checklist
+    file_regex: .*migrations.*
+    items:
+      - Did you run the migration on staging?
